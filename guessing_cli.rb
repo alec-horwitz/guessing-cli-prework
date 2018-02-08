@@ -5,7 +5,12 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     input = gets.strip
     roll = 1 + rand(6)
-    input.to_i == roll ? puts "You guessed the correct number!" : puts "The computer guessed " + roll.to_s + "."
+    if input.to_i == roll
+      puts "You guessed the correct number!"
+    else
+      puts "The computer guessed " + roll.to_s + "."
+
+    end
   end
   "Goodbye!"
 end
