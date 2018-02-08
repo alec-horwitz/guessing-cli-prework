@@ -8,7 +8,7 @@ def run_guessing_game
     if input.to_i == roll
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed " + roll.to_s + "."
+      puts ("The computer guessed " + roll.to_s + ".")
 
     end
   end
