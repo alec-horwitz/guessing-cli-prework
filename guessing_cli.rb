@@ -4,7 +4,7 @@ def run_guessing_game
   while input != "exit"
     puts "Guess a number between 1 and 6."
     input = gets.strip
-    roll = rand(6)
+    roll = rand(1..6)
     if input.to_i == roll
       puts "You guessed the correct number!"
     else
