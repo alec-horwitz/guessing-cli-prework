@@ -11,5 +11,5 @@ def run_guessing_game
       puts ("The computer guessed " + roll.to_s + ".")
     end
   end
-  "Goodbye!"
+  puts "Goodbye!"
 end
